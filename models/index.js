@@ -30,6 +30,8 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
+
+// Setting alter to true loses all data!
 sequelize.sync({alter:false})
 
 module.exports = db;

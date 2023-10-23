@@ -6,5 +6,5 @@ node_modules
 controllers/listController.js
 models/list.js.old
 models/listItem.js.old
-sqliteDb.db
+sqliteDb.sqlite3
 
