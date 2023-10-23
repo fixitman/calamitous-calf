@@ -4,5 +4,7 @@ node_modules
 
 .vscode
 controllers/listController.js
-models/list.js
-models/listItem.js
+models/list.js.old
+models/listItem.js.old
+sqliteDb.db
+

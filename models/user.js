@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
     });
 
     User.associate = (models) => {
-        User.belongsToMany(models.List, {through: models.Role})
+        
     }
     
     return User
